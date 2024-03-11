@@ -1,0 +1,229 @@
+[
+    {"_id":"14785926",
+	"buyerId": "123456",
+	"purchaseDateTime": "10/31/2023",
+    "movieScreening": {
+		"movie": "Mortal Kombat Legends: Cage Match",
+		"dateTime": "09:00:10/31/2023"
+},
+"theater": "Starry Nights Theater",
+"tickets": [
+    {
+        "assignedSeat": "3A",
+        "price": 50
+}
+],
+"totalPrice": 50,
+"payment_info": {
+	"account": "123456",
+	"security_code_hashed": "1234568"
+}
+    },
+    {
+        "_id": "789012",
+        "buyerId": "789012",
+        "purchaseDateTime": "10/31/2023",
+        "movieScreening": {
+            "movie": "Blue Beetle",
+            "dateTime": "09:00:10/31/2023"
+        },
+        "theater": "Classic Palace Theater",
+        "tickets": [
+            {
+                "assignedSeat": "4B",
+                "price": 50
+            }
+        ],
+        "totalPrice": 50,
+        "payment_info": {
+            "account": "789012",
+            "security_code_hashed": "7890128"
+        }
+    },
+    {
+        "_id": "345678",
+        "buyerId": "345678",
+        "purchaseDateTime": "10/31/2023",
+        "movieScreening": {
+            "movie": "The Exorcist: Believer",
+            "dateTime": "10:30:10/31/2023"
+        },
+        "theater": "Royal Oak Cinema",
+        "tickets": [
+            {
+                "assignedSeat": "1C",
+                "price": 50
+            }
+        ],
+        "totalPrice": 50,
+        "payment_info": {
+            "account": "345678",
+            "security_code_hashed": "3456788"
+        }
+    },
+    {
+        "_id": "901234",
+        "buyerId": "901234",
+        "purchaseDateTime": "10/31/2023",
+        "movieScreening": {
+            "movie": "Sniper: G.R.I.T. - Global Response & Intelligence Team",
+            "dateTime": "11:00:10/31/2023"
+        },
+        "theater":  "Golden Globe Theater",
+        "tickets": [
+            {
+                "assignedSeat": "2D",
+                "price": 30
+            }
+        ],
+        "totalPrice": 30,
+        "payment_info": {
+            "account": "901234",
+            "security_code_hashed": "9012348"
+        }
+    },
+    {
+        "_id": "567890",
+        "buyerId": "567890",
+        "purchaseDateTime": "10/31/2023",
+        "movieScreening": {
+            "movie": "Mortal Kombat Legends: Cage Match",
+            "dateTime": "11:30:10/31/2023"
+        },
+        "theater": "Emerald Theaters",
+        "tickets": [
+            {
+                "assignedSeat": "3E",
+                "price": 50
+            }
+        ],
+        "totalPrice": 50,
+        "payment_info": {
+            "account": "567890",
+            "security_code_hashed": "5678908"
+        }
+    },
+    {
+        "_id": "1234567",
+        "buyerId": "1234567",
+        "purchaseDateTime": "10/31/2023",
+        "movieScreening": {
+            "movie": "Sound of Freedom",
+            "dateTime": "12:00:10/31/2023"
+        },
+        "theater": "Sunrise Cinemas",
+        "tickets": [
+            {
+                "assignedSeat": "4F",
+                "price": 50
+            }
+        ],
+        "totalPrice": 50,
+        "payment_info": {
+            "account": "1234567",
+            "security_code_hashed": "12345678"
+        }
+    },
+    {
+        "_id": "2345678",
+        "buyerId": "2345678",
+        "purchaseDateTime": "10/31/2023",
+        "movieScreening": {
+            "movie": "PAW Patrol: The Mighty Movie",
+            "dateTime": "12:30:10/31/2023"
+        },
+        "theater": "Sapphire Screen",
+        "tickets": [
+            {
+                "assignedSeat": "1G",
+                "price": 50
+            }
+        ],
+        "totalPrice": 50,
+        "payment_info": {
+            "account": "2345678",
+            "security_code_hashed": "23456788"
+        }
+    },
+    {
+        "_id": "3456789",
+        "buyerId": "3456789",
+        "purchaseDateTime": "10/31/2023",
+        "movieScreening": {
+            "movie": "Once Upon a Studio",
+            "dateTime": "13:00:10/31/2023"
+        },
+        "theater": "Starry Nights Theater",
+        "tickets": [
+            {
+                "assignedSeat": "2H",
+                "price": 50
+            }
+        ],
+        "totalPrice": 50,
+        "payment_info": {
+            "account": "3456789",
+            "security_code_hashed": "34567898"
+        }
+    },
+    {
+        "_id": "4567890",
+        "buyerId": "4567890",
+        "purchaseDateTime": "10/31/2023",
+        "movieScreening": {
+            "movie": "Balkan Line",
+            "dateTime": "13:30:10/31/2023"
+        },
+        "theater": "Tinseltown Cinema",
+        "tickets": [
+            {
+                "assignedSeat": "3I",
+                "price": 50
+            }
+        ],
+        "totalPrice": 50,
+        "payment_info": {
+            "account": "4567890",
+            "security_code_hashed": "45678908"
+        }
+    },
+
+    {
+        "_id": "5678901",
+        "buyerId": "5678901",
+        "purchaseDateTime": "10/31/2023",
+        "movieScreening": {
+            "movie": "Killers of the Flower Moon",
+            "dateTime": "14:00:10/31/2023"
+        },
+        "theater": "Midnight Movie Magic",
+        "tickets": [
+            {
+                "assignedSeat": "4J",
+                "price": 50
+            }
+        ],
+        "totalPrice": 50,
+        "payment_info": {
+            "account": "5678901",
+            "security_code_hashed": "56789018"
+        }
+    }
+    
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    
+]

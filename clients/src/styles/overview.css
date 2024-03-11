@@ -1,0 +1,39 @@
+.overview {
+    padding: 20px;
+    overflow-x: hidden;
+
+  }
+  
+  .statistics {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .overview h2{
+    color: black;
+  }
+  .statistic {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    color:black
+  }
+  
+  .statistic h2 {
+    margin-bottom: 15px;
+  }
+  
+  .statistic p {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 600px) {
+     .statistics{
+        display: block;
+     }
+     .statistic{
+        margin: 5px;
+     }
+  }

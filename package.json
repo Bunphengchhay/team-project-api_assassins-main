@@ -1,0 +1,30 @@
+{
+  "proxy": "http://localhost:5002",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^2.4.0",
+    "bcrypt": "^5.1.1",
+    "chai": "^4.3.10",
+    "chromedriver": "^119.0.1",
+    "express-session": "^1.17.3",
+    "faker": "^5.5.3",
+    "geckodriver": "^4.2.1",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.15.0",
+    "supertest": "^6.3.3",
+    "typescript": "^5.2.2",
+    "concurrently": "^8.2.2"
+  },
+  "scripts": {
+    "client": "cd clients && serve -s build",
+    "client-dev": "cd clients && npm start",
+    "server": "cd server && npm start",
+    "server-dev": "cd server && nodemon server.js",
+    "dev": "concurrently --kill-others-on-fail \"npm run server-dev\" \"npm run client-dev\"",
+    "test": "./node_modules/.bin/mocha",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run client\"",
+    "db": "mongod --dbpath /usr/local/var/mongodb/ --rest"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-private-property-in-object": "^7.21.11"
+  }
+}

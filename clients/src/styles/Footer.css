@@ -1,0 +1,59 @@
+.footer {
+    background-color: #A30000; /* Dark background for the footer */
+    color: #ffffff; /* White text color */
+    /* padding: 2rem; Padding around content */
+    font-size: x-small;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; /* Space out the description and links */
+    align-items: stretch; /* Stretch items to fill the container */
+}
+
+.footer-description,
+.footer-links {
+    flex: 1; /* Both children will grow equally */
+    display: flex; /* Make them flex containers too */
+    flex-direction: column; /* Arrange their children in columns */
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    padding: 1rem; /* Add some padding */
+}
+
+.footer h3 {
+    font-size: small;
+    /* margin: 0.5rem 0; Add some margin to the header */
+}
+
+.footer-links ul,
+.footer-description ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    width: 100%; /* Full width for better control */
+    text-align: center; /* Center text */
+}
+
+.footer-links ul li a,
+.footer-description ul li {
+    color: #ffffff; /* White text color for links */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth color transition for hover effect */
+    display: block; /* Make list items and links fill their containers */
+}
+
+.footer-links ul li a:hover {
+    color: #fca311; /* Highlight color when hovering over links */
+}
+
+@media (max-width: 500px) {
+    .footer-content {
+        flex-direction: column; /* Stack the description and links on small screens */
+        align-items: center; /* Center align items when stacked */
+    }
+    .footer-description,
+    .footer-links {
+        max-width: 100%; /* Allow each section to fill the width */
+        align-items: center; /* Center align items when stacked */
+    }
+}

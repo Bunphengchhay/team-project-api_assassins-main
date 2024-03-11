@@ -1,0 +1,71 @@
+/* CheckoutForm.css */
+
+/* Center align all form elements */
+.checkout-form {
+    padding-top: 5%;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  /* Style each section */
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px; /* Adjust the maximum width as needed */
+  }
+  
+  /* Style input fields */
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 300px; /* Adjust the maximum width as needed */
+  }
+  
+  /* Style the labels to have a smaller font size */
+  label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+    height: 20px;
+  }
+  
+  /* Resize the input fields to be three times their current size */
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* width: 300%; */
+    max-width: 80vw;
+    font-size: 12px;
+    text-align: left;
+  }
+  /* Style the placeholder text to appear light */
+  input::placeholder {
+    color: #999;
+  }
+
+
+
+
+/* Media query for smaller screens */
+@media (max-width: 400px) {
+    /* Change the layout to block for sections */
+    .section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .checkout-form {
+      display: flex; /* Change back to flex display */
+      flex-direction: column; /* Stack sections vertically on smaller screens */
+      align-items: center; /* Center align each section */
+    }
+  
+  }
+  
+  

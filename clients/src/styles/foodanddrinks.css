@@ -1,0 +1,60 @@
+.food-and-drink {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+  }
+  
+  h2 {
+    /* color: #333; */
+    color: #FFFFF0;
+  }
+  
+  .menu {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .menu-item {
+    margin-bottom: 10px;
+  }
+  
+  .item-name {
+    margin-right: 10px;
+  }
+  
+  .order-summary {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .total {
+    margin-top: 20px;
+    text-align: right;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  

@@ -1,0 +1,787 @@
+[
+    {
+      "_id": 1,
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "phone_number": "123-456-7890",
+      "password_hashed": "hashed_password_1",
+      "member": {
+        "is_premium":true,
+	    "reward": 100,
+	    "payment_info": {
+            "account": "ABCDEFG",
+		    "security_code_hashed": "1234567"
+	}
+    }},
+    {
+      "_id": 2,
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "phone_number": "987-654-3210",
+      "password_hashed": "hashed_password_2",
+      "member": {
+        "is_premium":false,
+	    "reward": 100,
+	    "payment_info": {
+            "account": "ABCDEFG",
+		    "security_code_hashed": "1234567"
+	}
+    }},
+    {
+      "id": 3,
+      "name": "Charlie Brown",
+      "email": "charlie@example.com",
+      "phone_number": "555-555-5555",
+      "password_hashed": "hashed_password_3",
+      "member": {
+        "is_premium":true,
+	    "reward": 100,
+	    "payment_info": {
+            "account": "ABCDEFG",
+		    "security_code_hashed": "1234567"
+	}
+    }},
+
+    {
+      "id": 4,
+      "name": "David Wilson",
+      "email": "david@example.com",
+      "phone_number": "111-222-3333",
+      "password_hashed": "hashed_password_4",
+      "member": {
+        "is_premium":true,
+	    "reward": 100,
+	    "payment_info": {
+            "account": "ABCDEFG",
+		    "security_code_hashed": "1234567"
+	}
+    }},
+
+    {
+      "id": 5,
+      "name": "Eve Davis",
+      "email": "eve@example.com",
+      "phone_number": "999-888-7777",
+      "password_hashed": "hashed_password_5",
+      "member": {
+        "is_premium":true,
+	    "reward": 100,
+	    "payment_info": {
+            "account": "ABCDEFG",
+		    "security_code_hashed": "1234567"
+	}
+    }},
+    {
+      "_id": 14,
+      "name": "Nathan Clark",
+      "email": "nathan@example.com",
+      "phone_number": "999-888-7777",
+      "password_hashed": "hashed_password_14",
+      "member": {
+        "is_premium": true,
+        "reward": 210,
+        "payment_info": {
+          "account": "JKLMNOPQRS",
+          "security_code_hashed": "0987654"
+        }
+      }
+    },
+    {
+      "_id": 13,
+      "name": "Molly Turner",
+      "email": "molly@example.com",
+      "phone_number": "111-222-3333",
+      "password_hashed": "hashed_password_13",
+      "member": {
+        "is_premium": false,
+        "reward": 80,
+        "payment_info": {
+          "account": "IJKLMNOPQR",
+          "security_code_hashed": "1098765"
+        }
+      }
+    },
+    {
+      "_id": 12,
+      "name": "Larry Green",
+      "email": "larry@example.com",
+      "phone_number": "888-999-0000",
+      "password_hashed": "hashed_password_12",
+      "member": {
+        "is_premium": true,
+        "reward": 190,
+        "payment_info": {
+          "account": "HIJKLMNOPQ",
+          "security_code_hashed": "2109876"
+        }
+      }
+    },
+    {
+      "_id": 11,
+      "name": "Karen Lee",
+      "email": "karen@example.com",
+      "phone_number": "555-666-7777",
+      "password_hashed": "hashed_password_11",
+      "member": {
+        "is_premium": false,
+        "reward": 70,
+        "payment_info": {
+          "account": "GHIJKLMNO",
+          "security_code_hashed": "3210987"
+        }
+      }
+    },
+    {
+      "_id": 10,
+      "name": "Jack Taylor",
+      "email": "jack@example.com",
+      "phone_number": "222-333-4444",
+      "password_hashed": "hashed_password_10",
+      "member": {
+        "is_premium": true,
+        "reward": 180,
+        "payment_info": {
+          "account": "FGHIJKLMN",
+          "security_code_hashed": "4321098"
+        }
+      }
+    },
+    {
+      "_id": 9,
+      "name": "Ivy Brown",
+      "email": "ivy@example.com",
+      "phone_number": "666-777-8888",
+      "password_hashed": "hashed_password_9",
+      "member": {
+        "is_premium": false,
+        "reward": 45,
+        "payment_info": {
+          "account": "EFGHIJKLM",
+          "security_code_hashed": "5432109"
+        }
+      }
+    },
+    {
+      "_id": 8,
+      "name": "Henry White",
+      "email": "henry@example.com",
+      "phone_number": "333-444-5555",
+      "password_hashed": "hashed_password_8",
+      "member": {
+        "is_premium": true,
+        "reward": 220,
+        "payment_info": {
+          "account": "DEFGHIJKL",
+          "security_code_hashed": "6543210"
+        }
+      }
+    },
+    {
+      "_id": 7,
+      "name": "Grace Anderson",
+      "email": "grace@example.com",
+      "phone_number": "777-888-9999",
+      "password_hashed": "hashed_password_7",
+      "member": {
+        "is_premium": false,
+        "reward": 60,
+        "payment_info": {
+          "account": "CDEFGHIJK",
+          "security_code_hashed": "7654321"
+        }
+      }
+    },
+    {
+      "_id": 6,
+      "name": "Frank Harris",
+      "email": "frank@example.com",
+      "phone_number": "444-555-6666",
+      "password_hashed": "hashed_password_6",
+      "member": {
+        "is_premium": true,
+        "reward": 175,
+        "payment_info": {
+          "account": "TUVWXYZAB",
+          "security_code_hashed": "8765432"
+        }
+      }
+    },
+    {
+      "_id": 5,
+      "name": "Eve Martinez",
+      "email": "eve@example.com",
+      "phone_number": "999-888-7777",
+      "password_hashed": "hashed_password_5",
+      "member": {
+        "is_premium": false,
+        "reward": 75,
+        "payment_info": {
+          "account": "KLMNOPQRS",
+          "security_code_hashed": "2345678"
+        }
+      }
+    },
+
+    
+    {
+        "_id": 31,
+        "name": "Alice Smith",
+        "email": "alice@example.com",
+        "phone_number": "123-456-7890",
+        "password_hashed": "hashed_password_1",
+        "member": {
+          "is_premium": true,
+          "reward": 100,
+          "payment_info": {
+            "account": "ABCDEFG",
+            "security_code_hashed": "1234567"
+          }
+        }
+      },
+      {
+        "_id": 32,
+        "name": "Bruce Wayne",
+        "email": "bruce@example.com",
+        "phone_number": "987-654-3210",
+        "password_hashed": "hashed_password_2",
+        "member": {
+          "is_premium": true,
+          "reward": 200,
+          "payment_info": {
+            "account": "BAT123",
+            "security_code_hashed": "7654321"
+          }
+        }
+      },
+      {
+        "_id": 33,
+        "name": "Diana Prince",
+        "email": "diana@example.com",
+        "phone_number": "555-555-5555",
+        "password_hashed": "hashed_password_3",
+        "member": {
+          "is_premium": true,
+          "reward": 300,
+          "payment_info": {
+            "account": "WONDER123",
+            "security_code_hashed": "9876543"
+          }
+        }
+      },
+      {
+        "_id": 34,
+        "name": "Clark Kent",
+        "email": "clark@example.com",
+        "phone_number": "777-777-7777",
+        "password_hashed": "hashed_password_4",
+        "member": {
+          "is_premium": true,
+          "reward": 400,
+          "payment_info": {
+            "account": "SUPER123",
+            "security_code_hashed": "6543219"
+          }
+        }
+      },
+      {
+        "_id": 35,
+        "name": "Barry Allen",
+        "email": "barry@example.com",
+        "phone_number": "111-111-1111",
+        "password_hashed": "hashed_password_5",
+        "member": {
+          "is_premium": true,
+          "reward": 500,
+          "payment_info": {
+            "account": "FLASH123",
+            "security_code_hashed": "3219876"
+          }
+        }
+      },
+      {
+        "_id": 36,
+        "name": "Hal Jordan",
+        "email": "hal@example.com",
+        "phone_number": "222-222-2222",
+        "password_hashed": "hashed_password_6",
+        "member": {
+          "is_premium": true,
+          "reward": 600,
+          "payment_info": {
+            "account": "GREEN123",
+            "security_code_hashed": "5432198"
+          }
+        }
+      },
+      {
+        "_id": 37,
+        "name": "Arthur Curry",
+        "email": "arthur@example.com",
+        "phone_number": "333-333-3333",
+        "password_hashed": "hashed_password_7",
+        "member": {
+          "is_premium": true,
+          "reward": 700,
+          "payment_info": {
+            "account": "AQUA123",
+            "security_code_hashed": "8765432"
+          }
+        }
+      },
+      {
+        "_id": 38,
+        "name": "Selina Kyle",
+        "email": "selina@example.com",
+        "phone_number": "444-444-4444",
+        "password_hashed": "hashed_password_8",
+        "member": {
+          "is_premium": true,
+          "reward": 800,
+          "payment_info": {
+            "account": "CAT123",
+            "security_code_hashed": "4321897"
+          }
+        }
+      },
+      {
+        "_id": 39,
+        "name": "Victor Stone",
+        "email": "victor@example.com",
+        "phone_number": "666-666-6666",
+        "password_hashed": "hashed_password_9",
+        "member": {
+          "is_premium": true,
+          "reward": 900,
+          "payment_info": {
+            "account": "CYBORG123",
+            "security_code_hashed": "6543210"
+          }
+        }
+      },
+      {
+        "_id": 40,
+        "name": "Oliver Queen",
+        "email": "oliver@example.com",
+        "phone_number": "777-777-7777",
+        "password_hashed": "hashed_password_10",
+        "member": {
+          "is_premium": true,
+          "reward": 1000,
+          "payment_info": {
+            "account": "ARROW123",
+            "security_code_hashed": "3210987"
+          }
+        }
+      },
+      {
+        "_id": 41,
+        "name": "Kara Zor-El",
+        "email": "kara@example.com",
+        "phone_number": "888-888-8888",
+        "password_hashed": "hashed_password_11",
+        "member": {
+          "is_premium": true,
+          "reward": 1100,
+          "payment_info": {
+            "account": "SUPERGIRL123",
+            "security_code_hashed": "2109876"
+          }
+        }
+      },
+      {
+        "_id": 42,
+        "name": "John Stewart",
+        "email": "john@example.com",
+        "phone_number": "999-999-9999",
+        "password_hashed": "hashed_password_12",
+        "member": {
+          "is_premium": true,
+          "reward": 1200,
+          "payment_info": {
+            "account": "GREEN123",
+            "security_code_hashed": "5432198"
+          }
+        }
+      },
+      {
+        "_id": 43,
+        "name": "Harley Quinn",
+        "email": "harley@example.com",
+        "phone_number": "123-123-1234",
+        "password_hashed": "hashed_password_13",
+        "member": {
+          "is_premium": true,
+          "reward": 1300,
+          "payment_info": {
+            "account": "JOKER123",
+            "security_code_hashed": "9876123"
+          }
+        }
+      },
+      {
+        "_id": 44,
+        "name": "Dick Grayson",
+        "email": "dick@example.com",
+        "phone_number": "234-234-2345",
+        "password_hashed": "hashed_password_14",
+        "member": {
+          "is_premium": true,
+          "reward": 1400,
+          "payment_info": {
+            "account": "NIGHTWING123",
+            "security_code_hashed": "6123987"
+          }
+        }
+      },
+      {
+        "_id": 45,
+        "name": "Pamela Isley",
+        "email": "pamela@example.com",
+        "phone_number": "345-345-3456",
+        "password_hashed": "hashed_password_15",
+        "member": {
+          "is_premium": true,
+          "reward": 1500,
+          "payment_info": {
+            "account": "POISON123",
+            "security_code_hashed": "1239876"
+          }
+        }
+      },
+      
+      
+      {
+          "_id": 50,
+          "name": "Tony Stark",
+          "email": "tony@example.com",
+          "phone_number": "555-123-4567",
+          "password_hashed": "hashed_password_50",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 51,
+          "name": "Peter Parker",
+          "email": "peter@example.com",
+          "phone_number": "555-234-5678",
+          "password_hashed": "hashed_password_51",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 52,
+          "name": "Natasha Romanoff",
+          "email": "natasha@example.com",
+          "phone_number": "555-345-6789",
+          "password_hashed": "hashed_password_52",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 53,
+          "name": "Thor Odinson",
+          "email": "thor@example.com",
+          "phone_number": "555-456-7890",
+          "password_hashed": "hashed_password_53",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 54,
+          "name": "Steve Rogers",
+          "email": "steve@example.com",
+          "phone_number": "555-567-8901",
+          "password_hashed": "hashed_password_54",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 55,
+          "name": "Bruce Banner",
+          "email": "bruce@example.com",
+          "phone_number": "555-678-9012",
+          "password_hashed": "hashed_password_55",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 56,
+          "name": "Wanda Maximoff",
+          "email": "wanda@example.com",
+          "phone_number": "555-789-0123",
+          "password_hashed": "hashed_password_56",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 57,
+          "name": "Scott Lang",
+          "email": "scott@example.com",
+          "phone_number": "555-890-1234",
+          "password_hashed": "hashed_password_57",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 58,
+          "name": "Carol Danvers",
+          "email": "carol@example.com",
+          "phone_number": "555-901-2345",
+          "password_hashed": "hashed_password_58",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 59,
+          "name": "Matt Murdock",
+          "email": "matt@example.com",
+          "phone_number": "555-012-3456",
+          "password_hashed": "hashed_password_59",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 60,
+          "name": "Hank Pym",
+          "email": "hank@example.com",
+          "phone_number": "555-123-4567",
+          "password_hashed": "hashed_password_60",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 61,
+          "name": "Jessica Jones",
+          "email": "jessica@example.com",
+          "phone_number": "555-234-5678",
+          "password_hashed": "hashed_password_61",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 62,
+          "name": "Clint Barton",
+          "email": "clint@example.com",
+          "phone_number": "555-345-6789",
+          "password_hashed": "hashed_password_62",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 63,
+          "name": "Jean Grey",
+          "email": "jean@example.com",
+          "phone_number": "555-456-7890",
+          "password_hashed": "hashed_password_63",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 64,
+          "name": "Luke Cage",
+          "email": "luke@example.com",
+          "phone_number": "555-567-8901",
+          "password_hashed": "hashed_password_64",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 65,
+          "name": "Gamora",
+          "email": "gamora@example.com",
+          "phone_number": "555-678-9012",
+          "password_hashed": "hashed_password_65",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 66,
+          "name": "T'Challa",
+          "email": "tchalla@example.com",
+          "phone_number": "555-789-0123",
+          "password_hashed": "hashed_password_66",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 67,
+          "name": "Groot",
+          "email": "groot@example.com",
+          "phone_number": "555-890-1234",
+          "password_hashed": "hashed_password_67",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 68,
+          "name": "Vision",
+          "email": "vision@example.com",
+          "phone_number": "555-901-2345",
+          "password_hashed": "hashed_password_68",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 69,
+          "name": "Sam Wilson",
+          "email": "sam@example.com",
+          "phone_number": "555-012-3456",
+          "password_hashed": "hashed_password_69",
+          "member": {
+            "is_premium": true,
+            "reward": 100,
+            "payment_info": {
+              "account": "ABCDEFG",
+              "security_code_hashed": "1234567"
+            }
+          }
+        },
+        {
+          "_id": 70,
+          "name": "Emma Frost",
+          "email": "emma@frost.com",
+          "phone_number": "760-999-7890",
+          "password_hashed": "hashed_password_70",
+          "member": {
+            "is_premium": true,
+            "reward": 1000,
+            "payment_info": {
+              "account": "emmafrost999",
+              "security_code_hashed": "whateveridc"
+            }
+          }
+        }
+      
+      
+    
+
+    
+    
+
+    
+
+
+    
+
+    
+
+    
+    
+    
+
+  ]
+  

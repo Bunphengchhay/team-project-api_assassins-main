@@ -1,0 +1,442 @@
+[
+    {
+      "name": "Starry Nights Theater",
+      "address": {
+        "street": "Sunset Boulevard",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipcode": "90028"
+      },
+      "schedule": [
+        {
+          "number": "Room A",
+          "seat_count": 85,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "Movie A",
+              "dateTime": "2023-12-01T19:00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sunset Cinemas",
+      "address": {
+        "street": "Ocean Avenue",
+        "city": "Santa Monica",
+        "state": "CA",
+        "zipcode": "90401"
+      },
+      "rooms": [
+        {
+          "number": "Room B",
+          "seat_count": 92,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-02T20:00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Golden Gate Theatres",
+      "address": {
+        "street": "Market Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipcode": "94103"
+      },
+      "rooms": [
+        {
+          "number": "Room C",
+          "seat_count": 78,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-03T18:30:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Classic Palace Theater",
+      "address": {
+        "street": "Main Street",
+        "city": "Venice",
+        "state": "CA",
+        "zipcode": "90291"
+      },
+      "rooms": [
+        {
+          "number": "Room D",
+          "seat_count": 87,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-04T17:15:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Moonlight Movies",
+      "address": {
+        "street": "Hollywood Boulevard",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipcode": "90028"
+      },
+      "rooms": [
+        {
+          "number": "Room E",
+          "seat_count": 96,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-05T21:45:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Royal Oak Cinema",
+      "address": {
+        "street": "Mission Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipcode": "94105"
+      },
+      "rooms": [
+        {
+          "number": "Room F",
+          "seat_count": 72,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-06T22:30:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Emerald Theaters",
+      "address": {
+        "street": "Santa Monica Boulevard",
+        "city": "West Hollywood",
+        "state": "CA",
+        "zipcode": "90069"
+      },
+      "rooms": [
+        {
+          "number": "Room G",
+          "seat_count": 100,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-07T19:30:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sapphire Screen",
+      "address": {
+        "street": "Beverly Drive",
+        "city": "Beverly Hills",
+        "state": "CA",
+        "zipcode": "90210"
+      },
+      "rooms": [
+        {
+          "number": "Room H",
+          "seat_count": 89,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-08T16:45:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "The Silver Screen",
+      "address": {
+        "street": "Pacific Coast Highway",
+        "city": "Malibu",
+        "state": "CA",
+        "zipcode": "90265"
+      },
+      "rooms": [
+        {
+          "number": "Room I",
+          "seat_count": 76,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-09T18:00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "City Lights Cinema",
+      "address": {
+        "street": "Lombard Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipcode": "94133"
+      },
+      "rooms": [
+        {
+          "number": "Room J",
+          "seat_count": 88,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-10T20:15:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Palm Tree Theatres",
+      "address": {
+        "street": "Wilshire Boulevard",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipcode": "90024"
+      },
+      "rooms": [
+        {
+          "number": "Room K",
+          "seat_count": 94,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-11T15:30:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hollywood Hills Cinema",
+      "address": {
+        "street": "Telegraph Avenue",
+        "city": "Berkeley",
+        "state": "CA",
+        "zipcode": "94704"
+      },
+      "rooms": [
+        {
+          "number": "Room L",
+          "seat_count": 73,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-12T21:00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Majestic Movie Palace",
+      "address": {
+        "street": "Santa Clara Street",
+        "city": "San Jose",
+        "state": "CA",
+        "zipcode": "95113"
+      },
+      "rooms": [
+        {
+          "number": "Room M",
+          "seat_count": 91,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-13T17:00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Central Park Cinemas",
+      "address": {
+        "street": "Broadway",
+        "city": "Oakland",
+        "state": "CA",
+        "zipcode": "94607"
+      },
+      "rooms": [
+        {
+          "number": "Room N",
+          "seat_count": 82,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-14T18:45:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Harbor View Theatres",
+      "address": {
+        "street": "Melrose Avenue",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipcode": "90046"
+      },
+      "rooms": [
+        {
+          "number": "Room O",
+          "seat_count": 99,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-15T19:30:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Rainbow Cinema",
+      "address": {
+        "street": "Golden Gate Avenue",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipcode": "94102"
+      },
+      "rooms": [
+        {
+          "number": "Room P",
+          "seat_count": 79,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-16T21:15:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Starlight Theater",
+      "address": {
+        "street": "Redwood Highway",
+        "city": "Mill Valley",
+        "state": "CA",
+        "zipcode": "94941"
+      },
+      "rooms": [
+        {
+          "number": "Room Q",
+          "seat_count": 83,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-17T15:45:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Mountain View Cinemas",
+      "address": {
+        "street": "Sunset Cliffs Boulevard",
+        "city": "San Diego",
+        "state": "CA",
+        "zipcode": "92107"
+      },
+      "rooms": [
+        {
+          "number": "Room R",
+          "seat_count": 77,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-18T22:00:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ocean Breeze Theaters",
+      "address": {
+        "street": "La Cienega Boulevard",
+        "city": "Los Angeles",
+        "state": "CA",
+        "zipcode": "90035"
+      },
+      "rooms": [
+        {
+          "number": "Room S",
+          "seat_count": 90,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-19T20:30:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Riverside Cinema",
+      "address": {
+        "street": "El Camino Real",
+        "city": "Palo Alto",
+        "state": "CA",
+        "zipcode": "94306"
+      },
+      "rooms": [
+        {
+          "number": "Room T",
+          "seat_count": 81,
+          "seats": {},
+          "schedule": [
+            {
+              "movie": "",
+              "dateTime": "2023-12-20T17:30:00"
+            }
+          ]
+        }
+      ]
+    }
+]

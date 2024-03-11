@@ -1,0 +1,62 @@
+.prebooking{
+    background-color: #f2f2f2;
+    min-width: 90vw;
+    border-radius: 10px;
+}
+.prebooking-info{
+    min-width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem;
+    font-size: small;
+}
+.prebooking-info-details{
+    width: 50%;
+}
+
+.prebooking-info p, .pricing-info p {
+    color: #555;
+    margin: 2px 0;
+  }
+#horizontal-line{
+    width: 2px;
+    height: auto;
+    background-color: #FFB43E;
+    margin: 1rem;
+}
+@media (max-width: 600px) {
+    .prebooking-info{
+        display: block;
+    }
+    .prebooking-info-price{
+        font-size: x-small;
+    }
+    .prebooking-info-details{
+        width: 100%;
+        font-size: x-small;
+    }
+    #horizontal-line{
+        width: 100%;
+        height: 1px;
+        background-color: #555;
+        margin: 0
+    }
+}
+.prebooking-button{
+    /* width: inherit;
+    display: flex;
+    justify-content: end; */
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+}
+button{
+    background-color: #A30000;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: small;
+}

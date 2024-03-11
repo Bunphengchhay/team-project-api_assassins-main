@@ -1,0 +1,3 @@
+npm install
+npm install express cors mongoose dotenv typescript
+sudo npm install -g nodemon

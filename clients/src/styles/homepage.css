@@ -1,0 +1,43 @@
+@media (min-width: 600px) {
+    .card-container {
+      justify-content: center;
+    }
+    .card-container {
+      width: 100%;
+      display: flex;
+      overflow: auto;
+      justify-content: flex-start;
+  
+      /* transform: translateY(-120px); */
+    }
+  }
+  
+  .card-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    justify-content:flex-start;
+
+    /* transform: translateY(-120px); */
+  }
+  
+/* Add this to your CSS file */
+@media (max-width: 768px) { /* Adjust this value as needed */
+    .homepage-second {
+      flex-direction: column; /* Stack the children divs */
+      align-items: center; /* Center the children divs when stacked */
+    }
+    .homepage-second > div {
+      max-width: 100%; /* Each child div takes full width of the parent */
+      flex-basis: auto; /* Reset the flex-basis to default */
+    }
+    .card-container {
+      width: 100%;
+      display: flex;
+      overflow: auto;
+      justify-content: flex-start;
+  
+      /* transform: translateY(-120px); */
+    }
+  }
+  

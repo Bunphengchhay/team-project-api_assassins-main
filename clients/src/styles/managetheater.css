@@ -1,0 +1,26 @@
+.theaterCard{
+    /* From https://css.glass */
+background: rgba(255, 254, 254, 0.23);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.7px);
+-webkit-backdrop-filter: blur(5.7px);
+border: 1px solid rgba(255, 254, 254, 0.22);
+}
+
+.content {
+    overflow: hidden;
+    height: auto;
+    transition: height 0.5s;
+  }
+  
+  .content.visible {
+    height: auto;
+    opacity: 1;
+  }
+  
+  .content.hidden {
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+  }

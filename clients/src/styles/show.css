@@ -1,0 +1,266 @@
+.show-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: #1c1c1c; */
+    padding: 1rem;
+    color: black;
+    
+  }
+  
+  .show-date{
+    width: 100vw;
+    height: 30px;
+    background-color: #A30000;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    color: white ;
+    font-size: small;
+
+  }
+  .date-item{
+    display: flex;
+    justify-content: center;
+    min-width: 50px;
+  }
+  
+.show-search{
+  color: white;
+  width: 100%;
+  font-size: small;
+}
+
+.show-filter-search{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.show-search {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* This will distribute space evenly between items */
+  padding: 0.5rem;
+  box-sizing: border-box; /* To ensure padding doesn't affect the overall width */
+  overflow-x: scroll;
+}
+
+.show-search button,
+.show-search .show-filter { /* Apply the same styling to buttons and the select dropdown */
+  flex: 1; /* Each element will take up equal space */
+  margin: 0 0.5rem; /* Add some space between the elements */
+  background-color: transparent; /* Remove the default button background */
+  border: 1px solid transparent; /* Remove borders */
+  color: white; /* Set the text color */
+  padding: 0.5rem 1rem; /* Add some padding */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  text-align: center; /* Center the text */
+}
+
+.show-search button:hover,
+.show-search .show-filter:hover { /* Hover effect for buttons and select */
+  /* background-color: #FFB43E; */
+  color: #FFB43E;
+}
+
+.show-search button.active,
+.show-search .show-filter:active { /* Active state for buttons and select */
+  text-decoration: underline; /* Underline the active element */
+}
+
+/* Remove the default styling from the dropdown */
+.show-filter {
+  appearance: none; /* Remove native OS dropdown styling */
+  -webkit-appearance: none; /* Also for Safari */
+  border: none; /* Remove the border */
+  background-color: #1c1c1c; /* Match the background color of the container */
+}
+
+/* Style the dropdown arrow */
+.show-filter::-ms-expand {
+  display: none; /* For IE11 */
+}
+.show-filter::after { /* For other browsers, use a pseudo-element */
+  content: '▼';
+  font-size: 0.7rem;
+  color: white;
+  right: 1rem;
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Additional pseudo-element for non-IE browsers */
+.show-search select {
+  position: relative;
+}
+
+.show-search select::after {
+  content: '▼';
+  font-size: 0.7rem;
+  color: white;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  position: absolute;
+  pointer-events: none;
+}
+
+
+
+
+  
+  .movie-card {
+    background: #ffffff;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* max-width: 800px; */
+    min-height: 300px;
+    width: 300px;
+    color: black;
+  }
+/*   
+  .movie-poster {
+    width: 100%;
+    border-radius: 4px;
+  } */
+  
+  .movie-info {
+    text-align: center;
+  }
+  
+  .movie-title {
+    margin-top: 0.5rem;
+    color: black;
+  }
+  
+  .movie-details {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: black;
+  }
+  
+  .showtimes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .showtime {
+    background: #FFB43E;
+    margin: 0.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .showtime:hover {
+    background: #fca311;
+  }
+  
+
+
+.show-inner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    max-width: 90%;
+    margin-bottom: 1rem;
+    min-height: 400px;
+    
+  }
+  
+  .show-inner-container > img {
+    object-fit: contain; /* To ensure the aspect ratio is maintained without cropping */
+    border-radius: 4px; /* Assuming you want rounded corners */
+    max-width: 40%; /* Control the size of the image */
+    /* height: auto; Maintain aspect ratio */
+    /* height: 100%; */
+  }
+
+  .movie-trailer a :hover{
+    color: #FFB43E
+  }
+  
+  @media (max-width: 768px) {
+    .show-inner-container {
+      flex-direction: column; /* Stack image and movie card on top of each other */
+      align-items: center; /* Center align the stacked items */
+    }
+  
+    .show-inner-container > img {
+      max-width: 100%; /* Image takes full width on smaller screens */
+    }
+    .show-filter-search{
+      display: block;
+      text-align:center;
+    }
+    .show-search{
+      font-size: x-small;
+    }
+    .show-date{
+      font-size: x-small;
+    }
+  }
+  
+  .movie-card {
+    flex: 1; /* Allows the movie card to take the remaining space */
+    
+  }
+  
+
+  
+  @media (max-width: 768px) {
+    .movie-card {
+      width: 90%;
+    }
+    .movie-poster{
+        width: 100% !important;
+        max-height: 600px;
+    }
+    .movie-card p{
+        font-size: x-small;
+    }
+    .movie-card h3{
+        font-size: small;
+    }
+    .movie-card span{
+        font-size: x-small;
+    }
+    .svg-seat{
+      max-height: 300px;
+    }
+  }
+
+  .movie-poster-container {
+    position: relative;
+    width: 200px;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3rem; /* Adjust the size as needed */
+    z-index: 2;
+  }
+  
+a{
+  text-decoration: none;
+  color: black
+}

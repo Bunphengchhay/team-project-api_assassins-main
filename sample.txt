@@ -1,0 +1,74 @@
+clients/
+  ├── node_modules/              (Folder for installed Node.js packages)
+  ├── public/                    (...Public assets and files for the client...)
+  ├── src/
+  |    ├── assets/               (Static assets like images, fonts, etc.)
+  |    ├── middleware/           (Middleware utilities for various operations like API calls)
+  |    |    ├── dataFetcher.js   (Utility for fetching data)
+  |    |    └── ...              (Other utilities for API post, get, update, delete, etc.)
+  |    ├── navigation/           (Navigation related components)
+  |    |    ├── appRoutes.jsx    (Routes configuration for the app)
+  |    |    └── navigation.jsx   (Navigation component)
+  |    ├── styles/               (Stylesheets and style related files)
+  |    ├── subpages/             (Reusable components or subpages that can be incorporated in multiple views or components)
+  |    ├── viewpages/            (React components for specific views or pages of the application)
+  |    |    ├── aboutus.jsx      
+  |    |    ├── booking.jsx      
+  |    |    ├── cart.jsx         
+  |    |    ├── contactus.jsx    
+  |    |    ├── faqs.jsx         
+  |    |    ├── findTheater.jsx  
+  |    |    ├── footer.jsx       
+  |    |    ├── homepage.jsx     
+  |    |    ├── locaitons.jsx    
+  |    |    ├── memebership.jsx  
+  |    |    └── shows.jsx        
+  |    ├── App.css               (Main CSS file for the app)
+  |    ├── App.js                (Main React component for the app)
+  |    ├── App.test.js           (Test file for App.js)
+  |    ├── index.css             (CSS for index.js)
+  |    ├── index.js              (Main entry point for the client-side app)
+  |    ├── logo.svg              (SVG logo for the app)
+  |    ├── reportWebVitals.js    (Utility for reporting web vitals)
+  |    └── setupTests.js         (Configuration for setting up tests)
+  ├── .gitignore                 (File for specifying which files/folders to ignore in Git)
+  ├── package-lock.json          (Lock file for npm dependencies)
+  ├── package.json               (File that lists npm dependencies and scripts)
+  ├── README.md                  (Documentation for the client side of the project)
+  └── requirements.txt           (list of requirements)
+
+server/
+  ├── .env                   (local Environment configuration file)
+  ├── config/
+  |    └── .env
+  ├── data/
+  |    ├── bookings/              (Folder for booking data)
+  |    ├── movies/                (Folder for movie data)
+  |    ├── theaters/              (Folder for theater data)
+  |    └── users/                 (Folder for user data)
+  ├── db/
+  |    ├── conn.js                (Database connection file, if separate)
+  |    └── conn.d.ts              (TS interface with conn.js)
+  ├── models/
+  |    ├── bookingModel.js        (Mongoose model for bookings)
+  |    ├── movieModel.js          (Mongoose model for movies)
+  |    ├── theaterModel.js        (Mongoose model for theaters)
+  |    └── userModel.js           (Mongoose model for users)
+  ├── node_modules/               (Folder for installed Node.js packages)
+  ├── routes/
+  |    ├── bookingRoutes.js       (API routes related to bookings)
+  |    ├── movieRoutes.js         (API routes related to movies)
+  |    ├── theaterRoutes.js       (API routes related to theaters)
+  |    └── userRoutes.js          (API routes related to users)
+  ├── scripts/
+  |    ├── insertTheater2.js      (Script to insert theater data)
+  |    ├── loadMoviesFromTmdb.js  (Script to insert movie data from TMDB)
+  |    └── ...                    (More scripts can be added here)
+  ├── typedef/                    (JSDoc type definitions, define yours here)
+  |    ├── client.js              (JSDoc definitions for expected client request)
+  |    └── movie.js               (JSDoc definitions for movies)
+  ├── server.js                   (Your main server application file)
+  ...                             (Other server-related files)
+
+
+

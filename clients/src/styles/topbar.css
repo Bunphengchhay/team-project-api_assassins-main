@@ -1,0 +1,49 @@
+  .topbar-location:hover + .topbar-location-popup,
+  .topbar-location-popup:hover,
+  .topbar-location-popup.visible {
+      display: block; /* Show the popup */
+  }
+  
+  .topbar-location-popup {
+      display: none; /* Hide by default */
+      position: absolute;
+      z-index: 1000;
+      min-width: 50%;
+      height: 500px;
+      top: 25px;
+      left:0;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      padding: 2rem;
+      overflow-y: scroll;
+
+  }
+ 
+  
+  .topbar-location {
+      position: relative;
+  }
+    
+  .topbar-location > p:hover{
+      color: yellow !important;
+      text-decoration: underline;
+  }
+  
+  /* Add this to your CSS file */
+.theater-location-list {
+    /* display: flex; */
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap to your desired spacing */
+  }
+  
+  /* Adjust margin or padding for TheaterLocation cards */
+  .theaterLocation {
+    margin: 10px; /* Add margin to create space between cards */
+    padding: 10px; /* Add padding for spacing within cards */
+    /* Other styles for TheaterLocation */
+  }
+  

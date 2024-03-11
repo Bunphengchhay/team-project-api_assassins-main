@@ -1,6 +1,7 @@
 import server from "./server_fetcher";
 
-const GOOGLE_API_KEY = "AIzaSyB1eaA8Oni7KK62XtXsRgf1RPwZjb7j8Cs"
+// const GOOGLE_API_KEY = "AIzaSyB1eaA8Oni7KK62XtXsRgf1RPwZjb7j8Cs"
+import GOOGLE_API_KEY from "../config/googleapi.config"
 
 async function getUserLocation(GOOGLE_API_KEY) {
   return new Promise(async (resolve, reject) => {
